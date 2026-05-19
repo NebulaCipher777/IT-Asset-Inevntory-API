@@ -12,7 +12,7 @@ app = FastAPI()
 @app.get("/assets")
 def get_assets():
     try:
-        conn = sqlite3.connect('C:/Users/Zolta/assets.db')
+        conn = sqlite3.connect('assets.db')
         # This line is the magic—it makes rows act like dictionaries automatically
         conn.row_factory = sqlite3.Row 
         cursor = conn.cursor()
