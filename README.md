@@ -20,3 +20,22 @@ A lightweight, high-performance REST API built to manage and track IT infrastruc
 Ensure you have Python 3.10+ installed. Clone this repository and install the requirements:
 ```bash
 pip install fastapi uvicorn
+
+Navigate to your project folder in the terminal and start the server:
+
+PowerShell
+python -m uvicorn main:app --reload
+
+3. View the Results
+Once the terminal shows the server is running, open your browser to:
+
+Interactive Documentation: http://127.0.0.1:8000/docs
+
+Raw Asset Data: http://127.0.0.1:8000/assets
+
+(Upcoming Features)
+[ ] Asset Adder: Implementation of POST endpoints to add devices via the browser.
+
+[ ] Health Check: Integrated ping logic to verify asset status in real-time.
+
+[ ] Security: API Key authentication for secure access.
