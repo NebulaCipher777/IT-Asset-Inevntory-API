@@ -23,10 +23,10 @@ pip install fastapi uvicorn
 
 Navigate to your project folder in the terminal and start the server:
 
-PowerShell
+Powershell
 python -m uvicorn main:app --reload
 
-3. View the Results
+-View the Results
 Once the terminal shows the server is running, open your browser to:
 
 Interactive Documentation: http://127.0.0.1:8000/docs
